@@ -11,6 +11,7 @@
 		650154EB25D3FF6800908307 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 650154EA25D3FF6800908307 /* RxSwift */; };
 		650154ED25D3FF6800908307 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 650154EC25D3FF6800908307 /* RxCocoa */; };
 		650154EF25D3FF6800908307 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 650154EE25D3FF6800908307 /* RxRelay */; };
+		650154F425D4069800908307 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650154F325D4069800908307 /* UIView-Extension.swift */; };
 		65DF88EA25C82AD30022116F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88E925C82AD30022116F /* AppDelegate.swift */; };
 		65DF88EC25C82AD30022116F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88EB25C82AD30022116F /* SceneDelegate.swift */; };
 		65DF88EE25C82AD30022116F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88ED25C82AD30022116F /* HomeViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		650154E325D3FBE700908307 /* TopControllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControllView.swift; sourceTree = "<group>"; };
+		650154F325D4069800908307 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		65DF88E625C82AD30022116F /* TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DF88E925C82AD30022116F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DF88EB25C82AD30022116F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				65DF893325C96D000022116F /* UIImage-Extension.swift */,
+				650154F325D4069800908307 /* UIView-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				65DF88EE25C82AD30022116F /* HomeViewController.swift in Sources */,
 				65DF892825C967510022116F /* BottomControllView.swift in Sources */,
 				65DF893425C96D000022116F /* UIImage-Extension.swift in Sources */,
+				650154F425D4069800908307 /* UIView-Extension.swift in Sources */,
 				650154E425D3FBE700908307 /* TopControllView.swift in Sources */,
 				65DF88EA25C82AD30022116F /* AppDelegate.swift in Sources */,
 				65DF88EC25C82AD30022116F /* SceneDelegate.swift in Sources */,
