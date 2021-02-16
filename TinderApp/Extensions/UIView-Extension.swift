@@ -60,3 +60,20 @@ extension UIView {
     }
     
 }
+extension UIColor {
+    
+    static func rgb(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor {
+        return .init(red: red / 255, green: green / 255, blue: blue / 255, alpha: 1)
+    }
+    
+}
+extension UIButton {
+    
+    func createCardInfoButton() -> UIButton {
+        self.setImage(UIImage(systemName: "info.circle.fill")?.resize(size: .init(width: 40, height: 40)), for: .normal)
+        self.tintColor = .white
+        self.imageView?.contentMode = .scaleAspectFit
+        return self
+    }
+    
+}

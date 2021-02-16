@@ -13,6 +13,8 @@
 		650154EF25D3FF6800908307 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 650154EE25D3FF6800908307 /* RxRelay */; };
 		650154F425D4069800908307 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650154F325D4069800908307 /* UIView-Extension.swift */; };
 		650154F925D40A8500908307 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650154F825D40A8500908307 /* CardView.swift */; };
+		656B67ED25DBDAAB00BE5332 /* CardInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B67EC25DBDAAB00BE5332 /* CardInfoLabel.swift */; };
+		656B67F225DBDD6400BE5332 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B67F125DBDD6400BE5332 /* CardImageView.swift */; };
 		65DF88EA25C82AD30022116F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88E925C82AD30022116F /* AppDelegate.swift */; };
 		65DF88EC25C82AD30022116F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88EB25C82AD30022116F /* SceneDelegate.swift */; };
 		65DF88EE25C82AD30022116F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF88ED25C82AD30022116F /* HomeViewController.swift */; };
@@ -45,6 +47,8 @@
 		650154E325D3FBE700908307 /* TopControllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControllView.swift; sourceTree = "<group>"; };
 		650154F325D4069800908307 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		650154F825D40A8500908307 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		656B67EC25DBDAAB00BE5332 /* CardInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoLabel.swift; sourceTree = "<group>"; };
+		656B67F125DBDD6400BE5332 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
 		65DF88E625C82AD30022116F /* TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DF88E925C82AD30022116F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DF88EB25C82AD30022116F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				65DF892725C967510022116F /* BottomControllView.swift */,
 				650154E325D3FBE700908307 /* TopControllView.swift */,
 				650154F825D40A8500908307 /* CardView.swift */,
+				656B67EC25DBDAAB00BE5332 /* CardInfoLabel.swift */,
+				656B67F125DBDD6400BE5332 /* CardImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,9 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656B67F225DBDD6400BE5332 /* CardImageView.swift in Sources */,
 				65DF88EE25C82AD30022116F /* HomeViewController.swift in Sources */,
 				65DF892825C967510022116F /* BottomControllView.swift in Sources */,
 				65DF893425C96D000022116F /* UIImage-Extension.swift in Sources */,
+				656B67ED25DBDAAB00BE5332 /* CardInfoLabel.swift in Sources */,
 				650154F425D4069800908307 /* UIView-Extension.swift in Sources */,
 				650154E425D3FBE700908307 /* TopControllView.swift in Sources */,
 				65DF88EA25C82AD30022116F /* AppDelegate.swift in Sources */,
