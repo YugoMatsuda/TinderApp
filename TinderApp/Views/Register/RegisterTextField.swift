@@ -1,8 +1,8 @@
 //
 //  RegisterTextField.swift
-//  TinderApp
+//  MatchingApp
 //
-//  Created by Yugo Matsuda on 2021-02-16.
+//  Created by Uske on 2021/02/01.
 //
 
 import UIKit
