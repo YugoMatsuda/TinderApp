@@ -77,6 +77,12 @@ extension UIButton {
         return self
     }
     
+    func createAboutAccountBuuton(text: String) -> UIButton {
+        self.setTitle(text, for: .normal)
+        self.titleLabel?.font = .systemFont(ofSize: 14)
+        return self
+    }
+    
 }
 extension UIColor {
     

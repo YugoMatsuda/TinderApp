@@ -30,6 +30,7 @@
 		65DF890C25C82AD40022116F /* TinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF890B25C82AD40022116F /* TinderAppUITests.swift */; };
 		65DF892825C967510022116F /* BottomControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF892725C967510022116F /* BottomControllView.swift */; };
 		65DF893425C96D000022116F /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF893325C96D000022116F /* UIImage-Extension.swift */; };
+		65F5E9F8260EF180002E3BE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5E9F7260EF180002E3BE3 /* LoginViewController.swift */; };
 		8172E30AC2F7D6FBA48D3761 /* Pods_TinderApp_TinderAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3109B4559E6840B42D29A67F /* Pods_TinderApp_TinderAppUITests.framework */; };
 		B8379D54154127AA1C24C3D0 /* Pods_TinderAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C073F63911D17B571DCF62C5 /* Pods_TinderAppTests.framework */; };
 		F762B585E7794A2402C926B0 /* Pods_TinderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85880CBB2C5E4101C796988C /* Pods_TinderApp.framework */; };
@@ -84,6 +85,7 @@
 		65DF890D25C82AD40022116F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65DF892725C967510022116F /* BottomControllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControllView.swift; sourceTree = "<group>"; };
 		65DF893325C96D000022116F /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
+		65F5E9F7260EF180002E3BE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7ABC5EB59FD1730C6C113947 /* Pods-TinderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderApp.release.xcconfig"; path = "Target Support Files/Pods-TinderApp/Pods-TinderApp.release.xcconfig"; sourceTree = "<group>"; };
 		85880CBB2C5E4101C796988C /* Pods_TinderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CBAE0666E9FA9A21E5DE99 /* Pods-TinderApp-TinderAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderApp-TinderAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TinderApp-TinderAppUITests/Pods-TinderApp-TinderAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			children = (
 				65DF88ED25C82AD30022116F /* HomeViewController.swift */,
 				656B680F25DBE17500BE5332 /* RegisterViewController.swift */,
+				65F5E9F7260EF180002E3BE3 /* LoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				650154F425D4069800908307 /* UIView-Extension.swift in Sources */,
 				656B694125DFCFD400BE5332 /* RegisterButton.swift in Sources */,
 				650154E425D3FBE700908307 /* TopControllView.swift in Sources */,
+				65F5E9F8260EF180002E3BE3 /* LoginViewController.swift in Sources */,
 				65DF88EA25C82AD30022116F /* AppDelegate.swift in Sources */,
 				650154F925D40A8500908307 /* CardView.swift in Sources */,
 				65DF88EC25C82AD30022116F /* SceneDelegate.swift in Sources */,
